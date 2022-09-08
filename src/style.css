@@ -1,0 +1,86 @@
+
+#container {
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #05131c;
+    background-color:#05131c;
+    border-radius: 10px;
+    width: 250px;
+   margin: auto;
+filter:drop-shadow(1px 2px 4px #000)
+}
+
+img {
+    border-radius: 10px;
+    width: 250px;
+    height: 350px
+}
+
+h1,
+h5,h4,
+h3,
+p {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile{
+    margin-left: 25px;
+}
+span{
+    font-size: 11px;
+    color:#fff;
+    padding:10px;
+}
+span.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px;
+    width: 90px;
+    background-color: rgb(8, 133, 206);
+    border-radius: 5px;
+    color:#fff;
+    margin-top:20px;
+}
+#email{
+background-color: #fff;
+color:black;
+margin-right: 20px;
+}
+.social{
+    margin-left: 25px;
+}
+
+/* About */
+
+.about--text{
+    font-size: 11px;
+    padding: 0px 20px 0px 20px;
+    text-align:justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+}
+.about--title{
+    font-size: 12px;
+    padding: 0px 20px 0px 20px;
+    font-weight: bold;
+}
+.about--text > li{
+    color:#fff;
+    padding: 0px 20px 0px 20px;
+    list-style: none;
+}
+.footer{
+    background-color: rgb(8, 133, 206);
+    color: #fff;
+}
+.footer > ol{
+    list-style: none;
+    display: flex;
+}
+.footer > ol > li{
+    padding: 10px;
+    margin:auto;
+    font-size: 10px;
+}
