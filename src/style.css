@@ -1,86 +1,85 @@
+/* *{
+    box-sizing: border-box;
+} */
+body {
+    background-color: rgb(212, 209, 209);
+}
 
-#container {
-    font-family: "Poppins", sans-serif;
-    border: 1px solid #05131c;
-    background-color:#05131c;
+.content {
+    filter: drop-shadow(1px 1px 3px rgb(197, 170, 170));
+    border: 2px solid #fff;
+    width: fit-content;
     border-radius: 10px;
-    width: 250px;
-   margin: auto;
-filter:drop-shadow(1px 2px 4px #000)
+    background: #fff;
+    display: inline-block;
+    margin: 20px;
 }
 
-img {
-    border-radius: 10px;
-    width: 250px;
-    height: 350px
+.contact {
+    margin: auto;
+    display: flex;
+    position: relative;
 }
 
-h1,
-h5,h4,
-h3,
-p {
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.profile{
-    margin-left: 25px;
-}
-span{
-    font-size: 11px;
-    color:#fff;
-    padding:10px;
-}
-span.name{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-button {
-    padding: 5px;
-    width: 90px;
-    background-color: rgb(8, 133, 206);
-    border-radius: 5px;
-    color:#fff;
-    margin-top:20px;
-}
-#email{
-background-color: #fff;
-color:black;
-margin-right: 20px;
-}
-.social{
-    margin-left: 25px;
-}
-
-/* About */
-
-.about--text{
-    font-size: 11px;
-    padding: 0px 20px 0px 20px;
-    text-align:justify;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.2em;
-}
-.about--title{
-    font-size: 12px;
-    padding: 0px 20px 0px 20px;
-    font-weight: bold;
-}
-.about--text > li{
-    color:#fff;
-    padding: 0px 20px 0px 20px;
-    list-style: none;
-}
-.footer{
-    background-color: rgb(8, 133, 206);
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgb(189, 13, 13);
+    filter: drop-shadow(1px 1px 3px rgb(3, 0, 0));
     color: #fff;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
-.footer > ol{
+
+nav {
+    background-color: darkslategrey;
+    padding: 10px;
+
+}
+
+nav ul {
     list-style: none;
     display: flex;
 }
-.footer > ol > li{
+
+nav ul li {
     padding: 10px;
-    margin:auto;
-    font-size: 10px;
+    font-size: 18px;
+    font-family: "ubuntu", sans-serif;
+}
+
+nav ul a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.logo {
+    float: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+img {
+    max-width: 280px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+h4,
+p {
+    text-align: center;
+}
+.contact-card h4{
+    background-color:darkslategrey ;
+    color:#fff;
+    padding:2px;
+    font-size: 20px;
+    border-radius: 2px;
 }

@@ -1,21 +1,28 @@
-import React from "react"
 
 
-//importing components
-import Footer from "./components/Footer"
-import Info from "./components/Info"
-import About from "./components/About"
-import Interest from "./components/Interest"
-import style from "./style.css"
+import React from 'react'
+import NavBar from './components/NavBar'
+import Contact from "./components/Contact"
+import product from "./components/data"
+
+
 
 export default function App() {
+    const contact = product.map(item => {
+        return <Contact
+            key={item.id}
+        //spread syntax
+           {...item}
+        />
+    })
     return (
-        <div style={style}>
-            <Info className="Info" />
-            <About className="about" />
-            <Interest className="interest" />
-            <Footer className="footer" />
+        <div>
+            <NavBar />
+            <div>
+               {contact}
+            </div>
         </div>
-    )
 
+    )
 }
+
